@@ -25,10 +25,9 @@ VectorDBCrafter is an open-source tool for developers and data scientists to man
    cd VectorDBCrafter
    
 2. Run the application:
-
-```bash
-   Copy code
-   uvicorn app.main:app --reload
+  ```bash
+  Copy code
+  uvicorn app.main:app --reload
 
 Open your browser and navigate to: http://127.0.0.1:800
 
