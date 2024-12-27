@@ -23,13 +23,20 @@ VectorDBCrafter is an open-source tool for developers and data scientists to man
    ```bash
    git clone https://github.com/your-username/VectorDBCrafter.git
    cd VectorDBCrafter
+   
+2. Run the application:
 
+```bash
+Copy code
+uvicorn app.main:app --reload
+
+Open your browser and navigate to: http://127.0.0.1:800
 
 ## Usage  
 
 1. **Create or Import Databases**
-- Choose to create a new vector database (ChromaDB or FAISS).
-- Alternatively, upload an existing vector database for further operations.
+   - Choose to create a new vector database (ChromaDB or FAISS).
+   - Alternatively, upload an existing vector database for further operations.
 
 2. **Perform Operations**  
    - Add, query, or modify embeddings within your database.  
