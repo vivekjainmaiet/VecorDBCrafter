@@ -59,3 +59,21 @@ Contributions are welcome!
 2. **Create a new branch**:  
    ```bash
    git checkout -b feature-name
+3. **Commit your changes**:  
+   ```bash
+   git commit -m 'Add a new feature'
+4. **Push to the branch**
+   ```bash
+   git push origin feature-name
+5. **Submit a pull request**
+
+## License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Tags  
+`vector-database` | `chroma-db` | `faiss` | `FastAPI` | `Jinja` | `data-science` | `open-source`
+
+## Acknowledgments  
+- [ChromaDB Documentation](https://docs.trychroma.com/)  
+- [FAISS Documentation](https://github.com/facebookresearch/faiss)  
+- Inspired by modern database tools and AI embedding frameworks.
